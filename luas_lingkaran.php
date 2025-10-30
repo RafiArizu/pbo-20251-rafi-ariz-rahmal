@@ -42,6 +42,8 @@ $linkgaran->tampil("Roda");
 LuasLingkaran::testing();
 
 
+//test_komen
+
 
 
 ?>
