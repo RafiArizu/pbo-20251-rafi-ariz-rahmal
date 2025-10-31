@@ -1,11 +1,15 @@
 <?php
 
+
+namespace App\Math;
+
 class LuasLingkaran{
 
     public const PHI = 3.14;
 
     private int $jari_jari;
 
+    
 
     // private masuk ke dalam public function di bungkus
     public function __construct($JariValue = 1){
@@ -33,16 +37,6 @@ class LuasLingkaran{
     // }
 
 }
-
-$linkgaran = new LuasLingkaran();
-// $linkgaran->jari_jari = 10; // input nilai jari-jari
-// $rumus = LuasLingkaran::PHI * ($linkgaran->jari_jari * $linkgaran->jari_jari);
-// echo "Hasilnya Adalah: " . $rumus;
-
-
-// cara panggil function
-$linkgaran->tampil2(10);
-$linkgaran->tampil("Roda");
 
 
 // Cara panggil function static
